@@ -6,8 +6,17 @@ import lessModuleStyles from './styles-less.module.less';
 import cssModuleStyles from './styles-css.module.css';
 
 // ⚠️
-// if you need to import the global.css (e.g. style.css), you can write in `app.tsx`,
-// if you need to import the global.less (e.g. style.less), you can use `require` syntax,
+// If you need to import the global CSS (e.g. styles.css), you can write in `_app.tsx`,
+// ```
+// // ./page/_app.tsx
+// import './styles.css';
+// ```
+//
+// if you need to import the global Less (e.g. styles.less), you can use `require` syntax,
+// ```
+// // ./page/index.tsx
+// require('./styles.less');
+// ```
 require('@/pages/styles-less.less');
 
 export default function Index() {
