@@ -23,7 +23,7 @@ export default function Index() {
   return (
     <div className={lessModuleStyles['page-index-wrapper']}>
       <div className={lessModuleStyles['page-index-inner']}>
-        <div className={lessModuleStyles['title']}>Next.js 10 CSS / Less Module</div>
+        <div className={lessModuleStyles['title']}>Next.js 10 CSS / Less Modules</div>
 
         <h2>Antd:</h2>
         <Button type="primary" ghost size="large">
