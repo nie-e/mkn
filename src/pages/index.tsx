@@ -35,14 +35,14 @@ export default function Index() {
         <h2>CSS:</h2>
 
         <button className="css-button">CSS</button>
-        <button className={cssModuleStyles['css-module-button']}>CSS Module</button>
+        <button className={cssModuleStyles['css-module-button']}>CSS Modules</button>
 
         <div className="line" />
 
         <h2>Less:</h2>
 
         <button className="less-button">Less</button>
-        <button className={lessModuleStyles['less-module-button']}>Less Module</button>
+        <button className={lessModuleStyles['less-module-button']}>Less Modules</button>
 
         <a
           className={lessModuleStyles['github-repo-link']}
