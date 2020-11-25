@@ -43,6 +43,14 @@ export default function Index() {
 
         <button className="less-button">Less</button>
         <button className={lessModuleStyles['less-module-button']}>Less Module</button>
+
+        <a
+          className={lessModuleStyles['github-repo-link']}
+          href="https://github.com/SolidZORO/mkn"
+          target="_blank"
+        >
+          Github Repo
+        </a>
       </div>
     </div>
   );
