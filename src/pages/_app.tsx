@@ -1,9 +1,8 @@
 import React from 'react';
 
-import '../styles/globals.css';
+import '@/styles/globals.less';
+import '@/pages/styles-css.css';
 
-function MyApp({ Component, pageProps }) {
+export default function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
-
-export default MyApp;
