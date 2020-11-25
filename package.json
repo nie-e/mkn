@@ -1,9 +1,16 @@
 {
   "name": "mkn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
+    "--- 0x00 --": "-- TOOLS ------------------------------------------------------",
+    "versionup": "standard-version -r patch",
+    "versionup:minor": "standard-version -r minor",
+    "versionup:major": "standard-version -r major",
+    "versionup:init": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
+    "--- 0x01 --": "-- DEV --------------------------------------------------------",
     "dev": "next dev",
+    "--- 0x02 --": "-- PROD -------------------------------------------------------",
     "build": "next build",
     "start": "next start"
   },
